@@ -1,0 +1,21 @@
+Passo a Passo Para Instalar Corte1.0
+
+/////Instalando Python no Windows\\\\\
+1°  -Baixar python-2.7 na maquina
+    -Computador(propriedades), Configurações avançadas, Avançado, Variaveis de ambiente, pach, edite, ;C:\Python27\
+
+/////instalando Pyserial e testando\\\\\ 
+2°  -Colar pyserial dentro de C:\Python27** Abrir CMD ** cd\ ** cd C:\Python\pyserial-3.4 ** (sudo python setup.py install) ou (python setup.py install)
+3°  -Import serial
+
+/////Preparado sistema Corte1.0\\\\\
+3°  -instalar a pasta Safety no C:\\ 
+4°  -Colocar arquivi sensor(SS1) dentro da pasta C:\Safety(se não estiver) 
+6°  -Testar arquivo Corte(ATENÇÃO se for em Maquina Virtual, alterar em código a porta COM3=>COM1)
+
+/////Preparando Wardware sistema Corte1.0\\\\\
+(baixar Compilador arduino)
+7°  -Acoplar mecanismo de corte, compilar código(e comferir pota COM3)e fazer ajuste de tempo de abertura.
+8°  -Testar mecanismo de Corte
+9°  -Programar agendador de tarefas para rodar Corte.py, Importar Corte1.0.xml ir em propriedades e alterar horario, Conferir se o arquivo vai rodar
+10°  -Dar ultima checada e teste final.
